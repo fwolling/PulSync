@@ -22,35 +22,38 @@ The *PulSync* processing pipeline has been evaluated using the dataset 716 of Ho
 
 <table>
   <thead>
-    <tr><td></td><td>misalignment Δ</td><td></td><td>remaining error ε</td><td></td></tr>
+    <tr><td></td><th colspan="2">misalignment Δ</th><th colspan="2">remaining error ε</th></tr>
     <tr><td>subject</td><td>mean</td><td>std</td><td>mean</td><td>std</td></tr>
   </thead>
   <tbody>
-    <tr><td>01</td><td>0.6 s</td><td>±0.023 s</td><td>-3.856 ms</td><td>±23.287 ms</td></tr>
-    <tr><td>02</td><td>-0.051 s</td><td>±0.023 s</td><td>-7.082 ms</td><td>±23.449 ms</td></tr>
-    <tr><td>03</td><td>0.453 s</td><td>±0.011 s</td><td>-3.46 ms</td><td>±11.195 ms</td></tr>
-    <tr><td>04</td><td>-0.363 s</td><td>±0.014 s</td><td>5.36 ms</td><td>±14.265 ms</td></tr>
-    <tr><td>05</td><td>0.038 s</td><td>±0.017 s</td><td>2.487 ms</td><td>±17.075 ms</td></tr>
-    <tr><td>06</td><td>-0.168 s</td><td>±0.009 s</td><td>-7.906 ms</td><td>±8.902 ms</td></tr>
-    <tr><td>07</td><td>-0.375 s</td><td>±0.007 s</td><td>-7.414 ms</td><td>±7.361 ms</td></tr>
-    <tr><td>08</td><td>0.327 s</td><td>±0.013 s</td><td>7.117 ms</td><td>±13.002 ms</td></tr>
-    <tr><td>09</td><td>-3.393 s</td><td>±0.01 s</td><td>6.939 ms</td><td>±9.879 ms</td></tr>
-    <tr><td>10</td><td>-3.493 s</td><td>±0.01 s</td><td>-12.445 ms</td><td>±10.223 ms</td></tr>
-    <tr><td>11</td><td>-0.402 s</td><td>±0.004 s</td><td>-1.621 ms</td><td>±3.728 ms</td></tr>
-    <tr><td>12</td><td>-0.491 s</td><td>±0.006 s</td><td>-11.187 ms</td><td>±5.55 ms</td></tr>
-    <tr><td>13</td><td>1.401 s</td><td>±0.011 s</td><td>-2.915 ms</td><td>±10.56 ms</td></tr>
-    <tr><td>14</td><td>3.216 s</td><td>±0.008 s</td><td>3.654 ms</td><td>±7.893 ms</td></tr>
-    <tr><td>15</td><td>-0.397 s</td><td>±0.017 s</td><td>3.127 ms</td><td>±16.765 ms</td></tr>
-    <tr><td>16</td><td>0.196 s</td><td>±0.015 s</td><td>-3.698 ms</td><td>±14.89 ms</td></tr>
-    <tr><td>17</td><td>0.51 s</td><td>±0.006 s</td><td>-10.0 ms</td><td>±5.586 ms</td></tr>
-    <tr><td>18</td><td>-0.083 s</td><td>±0.006 s</td><td>-2.676 ms</td><td>±5.521 ms</td></tr>
-    <tr><td>19</td><td>4.969 s</td><td>±0.007 s</td><td>9.257 ms</td><td>±6.627 ms</td></tr>
-    <tr><td>20</td><td>3.186 s</td><td>±0.008 s</td><td>1.945 ms</td><td>±8.233 ms</td></tr>
-    <tr><td>21</td><td>-0.06 s</td><td>±0.002 s</td><td>-20.188 ms</td><td>±1.72 ms</td></tr>
-    <tr><td>22</td><td>-0.163 s</td><td>±0.007 s</td><td>-3.329 ms</td><td>±6.952 ms</td></tr>
-    <tr><td>23</td><td>-0.975 s</td><td>±0.007 s</td><td>-14.811 ms</td><td>±6.698 ms</td></tr>
-    <tr><td>24</td><td>-1.833 s</td><td>±0.003 s</td><td>6.83 ms</td><td>±3.206 ms</td></tr>
-    <tr><td>25</td><td>-0.553 s</td><td>±0.008 s</td><td>2.993 ms</td><td>±8.011 ms</td></tr>
+    <tr><td>01</td><td>600.164 ms</td><td>±23.287 ms</td><td>-3.856 ms</td><td>±23.287 ms</td></tr>
+    <tr><td>02</td><td>-51.084 ms</td><td>±23.449 ms</td><td>-7.082 ms</td><td>±23.449 ms</td></tr>
+    <tr><td>03</td><td>452.556 ms</td><td>±11.195 ms</td><td>-3.460 ms</td><td>±11.195 ms</td></tr>
+    <tr><td>04</td><td>-362.652 ms</td><td>±14.265 ms</td><td>5.360 ms</td><td>±14.265 ms</td></tr>
+    <tr><td>05</td><td>38.488 ms</td><td>±17.075 ms</td><td>2.487 ms</td><td>±17.075 ms</td></tr>
+    <tr><td>06</td><td>-167.911 ms</td><td>±8.902 ms</td><td>-7.906 ms</td><td>±8.902 ms</td></tr>
+    <tr><td>07</td><td>-375.427 ms</td><td>±7.361 ms</td><td>-7.414 ms</td><td>±7.361 ms</td></tr>
+    <tr><td>08</td><td>327.127 ms</td><td>±13.002 ms</td><td>7.117 ms</td><td>±13.002 ms</td></tr>
+    <tr><td>09</td><td>-3393.174 ms</td><td>±9.879 ms</td><td>6.939 ms</td><td>±9.879 ms</td></tr>
+    <tr><td>10</td><td>-3492.561 ms</td><td>±10.223 ms</td><td>-12.445 ms</td><td>±10.223 ms</td></tr>
+    <tr><td>11</td><td>-401.634 ms</td><td>±3.728 ms</td><td>-1.621 ms</td><td>±3.728 ms</td></tr>
+    <tr><td>12</td><td>-491.203 ms</td><td>±5.550 ms</td><td>-11.187 ms</td><td>±5.550 ms</td></tr>
+    <tr><td>13</td><td>1401.131 ms</td><td>±10.560 ms</td><td>-2.915 ms</td><td>±10.560 ms</td></tr>
+    <tr><td>14</td><td>3215.762 ms</td><td>±7.893 ms</td><td>3.654 ms</td><td>±7.893 ms</td></tr>
+    <tr><td>15</td><td>-396.886 ms</td><td>±16.765 ms</td><td>3.127 ms</td><td>±16.765 ms</td></tr>
+    <tr><td>16</td><td>196.308 ms</td><td>±14.890 ms</td><td>-3.698 ms</td><td>±14.890 ms</td></tr>
+    <tr><td>17</td><td>510.017 ms</td><td>±5.586 ms</td><td>-10.000 ms</td><td>±5.586 ms</td></tr>
+    <tr><td>18</td><td>-82.679 ms</td><td>±5.521 ms</td><td>-2.676 ms</td><td>±5.521 ms</td></tr>
+    <tr><td>19</td><td>4969.422 ms</td><td>±6.627 ms</td><td>9.257 ms</td><td>±6.627 ms</td></tr>
+    <tr><td>20</td><td>3186.051 ms</td><td>±8.233 ms</td><td>1.945 ms</td><td>±8.233 ms</td></tr>
+    <tr><td>21</td><td>-60.189 ms</td><td>±1.720 ms</td><td>-20.188 ms</td><td>±1.720 ms</td></tr>
+    <tr><td>22</td><td>-163.334 ms</td><td>±6.952 ms</td><td>-3.329 ms</td><td>±6.952 ms</td></tr>
+    <tr><td>23</td><td>-974.843 ms</td><td>±6.698 ms</td><td>-14.811 ms</td><td>±6.698 ms</td></tr>
+    <tr><td>24</td><td>-1833.231 ms</td><td>±3.206 ms</td><td>6.830 ms</td><td>±3.206 ms</td></tr>
+    <tr><td>25</td><td>-553.026 ms</td><td>±8.011 ms</td><td>2.993 ms</td><td>±8.011 ms</td></tr>
+
+Process finished with exit code 0
+
   </tbody>
 </table>
 
