@@ -19,7 +19,33 @@ You may use the source code of the developed synchronization tool *PulSync* for 
 The *PulSync* processing pipeline has been evaluated using the dataset 716 of Howell and Porr from the University of Glasgow <a href="#ref_s01">**[1]**</a>. It contains ECG measurements from 25 subjects, recorded with two independent, pretended synchronous sensing devices in Einthoven II and resembled V2-V1 lead configurations. The "sitting" subset contains manually annotated peak labels with a precision of ±1 sample. Those were used to generate the heart rate variability (HRV) interval functions that are utilized to align the recordings.
 
 ### Results
-
+| subject  | misalignment   | remaining error |
+| -------- | -------------- | --------------- |
+| 01       |  0.600 ± 0.023 |  |
+| 02       | -0.051 ± 0.023 |  |
+| 03       |  0.453 ± 0.011 |  |
+| 04       | -0.363 ± 0.014 |  |
+| 05       |  0.038 ± 0.017 |  |
+| 06       | -0.168 ± 0.009 |  |
+| 07       | -0.375 ± 0.007 |  |
+| 08       |  0.327 ± 0.013 |  |
+| 09       | -3.393 ± 0.010 |  |
+| 10       | -3.493 ± 0.010 |  |
+| 11       | -0.402 ± 0.004 |  |
+| 12       | -0.491 ± 0.006 |  |
+| 13       |  1.401 ± 0.011 |  |
+| 14       |  3.216 ± 0.008 |  |
+| 15       | -0.397 ± 0.017 |  |
+| 16       |  0.196 ± 0.015 |  |
+| 17       |  0.510 ± 0.006 |  |
+| 18       | -0.083 ± 0.006 |  |
+| 19       |  4.969 ± 0.007 |  |
+| 20       |  3.186 ± 0.008 |  |
+| 21       | -0.060 ± 0.002 |  |
+| 22       | -0.163 ± 0.007 |  |
+| 23       | -0.975 ± 0.007 |  |
+| 24       | -1.833 ± 0.003 |  |
+| 25       | -0.553 ± 0.008 |  |
 
 ### References
 <a id="ref_s01">**[1]:**</a> "[High precision ECG Database with annotated R peaks, recorded and filmed under realistic conditions](http://researchdata.gla.ac.uk/716/)", Luis Howell and Bernd Porr. University of Glasgow, 2018. <a href="http://dx.doi.org/10.5525/gla.researchdata.716" target="_blank">http://dx.doi.org/10.5525/gla.researchdata.716</a>
