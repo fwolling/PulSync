@@ -19,8 +19,8 @@ You may use the source code of the developed synchronization tool *PulSync* for 
 The *PulSync* processing pipeline has been evaluated using the dataset 716 of Howell and Porr from the University of Glasgow <a href="#ref_s01">**[1]**</a>. It contains ECG measurements from 25 subjects, recorded with two independent, pretended synchronous sensing devices in Einthoven II and resembled V2-V1 lead configurations. The "sitting" subset contains manually annotated peak labels with a precision of ±1 sample. Those were used to generate the heart rate variability (HRV) interval functions that are utilized to align the recordings.
 
 ### Results
-| subject  | misalignment   | remaining error |
-| -------: | -------------: | --------------: |
+| subject  | misalignment Δ | remaining error ε |
+| -------: | -------------: | ----------------: |
 | 01       |  0.600 ± 0.023 s |  |
 | 02       | -0.051 ± 0.023 s |  |
 | 03       |  0.453 ± 0.011 s |  |
