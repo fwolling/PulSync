@@ -20,7 +20,7 @@ The *PulSync* processing pipeline has been evaluated using the dataset 716 of Ho
 
 ### Results
 | subject  | misalignment   | remaining error |
-| -------- | -------------- | --------------- |
+| -------: | -------------: | --------------: |
 | 01       |  0.600 ± 0.023 |  |
 | 02       | -0.051 ± 0.023 |  |
 | 03       |  0.453 ± 0.011 |  |
