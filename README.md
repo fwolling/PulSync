@@ -19,6 +19,7 @@ You may use the source code of the developed synchronization tool *PulSync* for 
 The *PulSync* processing pipeline has been evaluated using the dataset 716 of Howell and Porr from the University of Glasgow <a href="#ref_s01">**[1]**</a>. It contains ECG measurements from 25 subjects, recorded with two independent, pretended synchronous sensing devices in Einthoven II and resembled V2-V1 lead configurations. The "sitting" subset contains manually annotated peak labels with a precision of ±1 sample. Those were used to generate the heart rate variability (HRV) interval functions that are utilized to align the recordings.
 
 ### Results
+The evaluation of the data-driven alignment method *PulSync* resulted in a promising accuracy of -0.71 ± 3.44 samples, respectively -2.86 ± 11.43 ms at a sampling rate of 250 Hz. The initial misalignment of the original recordings was determined with a mean of 15.328 ± 428.023 samples, 0.061 ± 1.712 s respectively. The smallest initial misalignment was present in the recording of subject 5 with 0.038 s, while subject 19 had the largest one of even 4.969 s.
 
 <table>
   <thead>
@@ -30,7 +31,7 @@ The *PulSync* processing pipeline has been evaluated using the dataset 716 of Ho
     <tr align="right"><td  align="left">02</td><td>-51.084 ms</td><td>±23.449 ms</td><td>-7.082 ms</td><td>±23.449 ms</td></tr>
     <tr align="right"><td  align="left">03</td><td>452.556 ms</td><td>±11.195 ms</td><td>-3.460 ms</td><td>±11.195 ms</td></tr>
     <tr align="right"><td  align="left">04</td><td>-362.652 ms</td><td>±14.265 ms</td><td>5.360 ms</td><td>±14.265 ms</td></tr>
-    <tr align="right"><td  align="left">05</td><td>38.488 ms</td><td>±17.075 ms</td><td>2.487 ms</td><td>±17.075 ms</td></tr>
+    <tr align="right"><td  align="left">05</td><td>**38.488 ms**</td><td>±17.075 ms</td><td>2.487 ms</td><td>±17.075 ms</td></tr>
     <tr align="right"><td  align="left">06</td><td>-167.911 ms</td><td>±8.902 ms</td><td>-7.906 ms</td><td>±8.902 ms</td></tr>
     <tr align="right"><td  align="left">07</td><td>-375.427 ms</td><td>±7.361 ms</td><td>-7.414 ms</td><td>±7.361 ms</td></tr>
     <tr align="right"><td  align="left">08</td><td>327.127 ms</td><td>±13.002 ms</td><td>7.117 ms</td><td>±13.002 ms</td></tr>
@@ -44,7 +45,7 @@ The *PulSync* processing pipeline has been evaluated using the dataset 716 of Ho
     <tr align="right"><td  align="left">16</td><td>196.308 ms</td><td>±14.890 ms</td><td>-3.698 ms</td><td>±14.890 ms</td></tr>
     <tr align="right"><td  align="left">17</td><td>510.017 ms</td><td>±5.586 ms</td><td>-10.000 ms</td><td>±5.586 ms</td></tr>
     <tr align="right"><td  align="left">18</td><td>-82.679 ms</td><td>±5.521 ms</td><td>-2.676 ms</td><td>±5.521 ms</td></tr>
-    <tr align="right"><td  align="left">19</td><td>4969.422 ms</td><td>±6.627 ms</td><td>9.257 ms</td><td>±6.627 ms</td></tr>
+    <tr align="right"><td  align="left">19</td><td>**4969.422 ms**</td><td>±6.627 ms</td><td>9.257 ms</td><td>±6.627 ms</td></tr>
     <tr align="right"><td  align="left">20</td><td>3186.051 ms</td><td>±8.233 ms</td><td>1.945 ms</td><td>±8.233 ms</td></tr>
     <tr align="right"><td  align="left">21</td><td>-60.189 ms</td><td>±1.720 ms</td><td>-20.188 ms</td><td>±1.720 ms</td></tr>
     <tr align="right"><td  align="left">22</td><td>-163.334 ms</td><td>±6.952 ms</td><td>-3.329 ms</td><td>±6.952 ms</td></tr>
