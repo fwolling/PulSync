@@ -20,9 +20,9 @@ The *PulSync* processing pipeline has been evaluated using the dataset 716 of Ho
 
 ### Results
 
-<table>
+<table style="text-align: right;">
   <thead>
-    <tr><th></th><th colspan="2">misalignment Δ</th><th colspan="2">remaining error ε</th></tr>
+    <tr><th style="border-style: none;"></th><th colspan="2">misalignment Δ</th><th colspan="2">remaining error ε</th></tr>
     <tr><th>subject</th><th>mean</th><th>std</th><th>mean</th><th>std</th></tr>
   </thead>
   <tbody>
