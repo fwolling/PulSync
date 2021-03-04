@@ -19,34 +19,40 @@ You may use the source code of the developed synchronization tool *PulSync* for 
 The *PulSync* processing pipeline has been evaluated using the dataset 716 of Howell and Porr from the University of Glasgow <a href="#ref_s01">**[1]**</a>. It contains ECG measurements from 25 subjects, recorded with two independent, pretended synchronous sensing devices in Einthoven II and resembled V2-V1 lead configurations. The "sitting" subset contains manually annotated peak labels with a precision of ±1 sample. Those were used to generate the heart rate variability (HRV) interval functions that are utilized to align the recordings.
 
 ### Results
-|          | misalignment Δ    || remaining error ε    ||
-| subject  | mean   |  st       | mean    | std         |
-| -------: | -----: | --------: | ------: | ----------: |
-| 01       |  0.600 | ± 0.023 s |  -3.856 | ± 23.287 ms |
-| 02       | -0.051 | ± 0.023 s |  -7.082 | ± 23.449 ms |
-| 03       |  0.453 | ± 0.011 s |  -3.460 | ± 11.195 ms |
-| 04       | -0.363 | ± 0.014 s |   5.360 | ± 14.265 ms |
-| 05       |  0.038 | ± 0.017 s |   2.487 | ± 17.075 ms |
-| 06       | -0.168 | ± 0.009 s |  -7.906 | ±  8.902 ms |
-| 07       | -0.375 | ± 0.007 s |  -7.414 | ±  7.361 ms |
-| 08       |  0.327 | ± 0.013 s |   7.117 | ± 13.002 ms |
-| 09       | -3.393 | ± 0.010 s |   6.939 | ±  9.879 ms |
-| 10       | -3.493 | ± 0.010 s | -12.445 | ± 10.223 ms |
-| 11       | -0.402 | ± 0.004 s |  -1.621 | ±  3.728 ms |
-| 12       | -0.491 | ± 0.006 s | -11.187 | ±  5.550 ms |
-| 13       |  1.401 | ± 0.011 s |  -2.915 | ± 10.560 ms |
-| 14       |  3.216 | ± 0.008 s |   3.654 | ±  7.893 ms |
-| 15       | -0.397 | ± 0.017 s |   3.127 | ± 16.765 ms |
-| 16       |  0.196 | ± 0.015 s |  -3.698 | ± 14.890 ms |
-| 17       |  0.510 | ± 0.006 s | -10.000 | ±  5.586 ms |
-| 18       | -0.083 | ± 0.006 s |  -2.676 | ±  5.521 ms |
-| 19       |  4.969 | ± 0.007 s |   9.257 | ±  6.627 ms |
-| 20       |  3.186 | ± 0.008 s |   1.945 | ±  8.233 ms |
-| 21       | -0.060 | ± 0.002 s | -20.188 | ±  1.720 ms |
-| 22       | -0.163 | ± 0.007 s |  -3.329 | ±  6.952 ms |
-| 23       | -0.975 | ± 0.007 s | -14.811 | ±  6.698 ms |
-| 24       | -1.833 | ± 0.003 s |   6.830 | ±  3.206 ms |
-| 25       | -0.553 | ± 0.008 s |   2.993 | ±  8.011 ms |
+
+<table>
+  <thead>
+    <tr><td></td><td>misalignment Δ</td><td></td><td>remaining error ε</td><td></td></tr>
+    <tr><td>subject</td><td>mean</td><td>std</td><td>mean</td><td>std</td></tr>
+  </thead>
+  <tbody>
+    <tr><td>01</td><td>0.6 s</td><td>±0.023 s</td><td>-3.856 ms</td><td>±23.287 ms</td></tr>
+    <tr><td>02</td><td>-0.051 s</td><td>±0.023 s</td><td>-7.082 ms</td><td>±23.449 ms</td></tr>
+    <tr><td>03</td><td>0.453 s</td><td>±0.011 s</td><td>-3.46 ms</td><td>±11.195 ms</td></tr>
+    <tr><td>04</td><td>-0.363 s</td><td>±0.014 s</td><td>5.36 ms</td><td>±14.265 ms</td></tr>
+    <tr><td>05</td><td>0.038 s</td><td>±0.017 s</td><td>2.487 ms</td><td>±17.075 ms</td></tr>
+    <tr><td>06</td><td>-0.168 s</td><td>±0.009 s</td><td>-7.906 ms</td><td>±8.902 ms</td></tr>
+    <tr><td>07</td><td>-0.375 s</td><td>±0.007 s</td><td>-7.414 ms</td><td>±7.361 ms</td></tr>
+    <tr><td>08</td><td>0.327 s</td><td>±0.013 s</td><td>7.117 ms</td><td>±13.002 ms</td></tr>
+    <tr><td>09</td><td>-3.393 s</td><td>±0.01 s</td><td>6.939 ms</td><td>±9.879 ms</td></tr>
+    <tr><td>10</td><td>-3.493 s</td><td>±0.01 s</td><td>-12.445 ms</td><td>±10.223 ms</td></tr>
+    <tr><td>11</td><td>-0.402 s</td><td>±0.004 s</td><td>-1.621 ms</td><td>±3.728 ms</td></tr>
+    <tr><td>12</td><td>-0.491 s</td><td>±0.006 s</td><td>-11.187 ms</td><td>±5.55 ms</td></tr>
+    <tr><td>13</td><td>1.401 s</td><td>±0.011 s</td><td>-2.915 ms</td><td>±10.56 ms</td></tr>
+    <tr><td>14</td><td>3.216 s</td><td>±0.008 s</td><td>3.654 ms</td><td>±7.893 ms</td></tr>
+    <tr><td>15</td><td>-0.397 s</td><td>±0.017 s</td><td>3.127 ms</td><td>±16.765 ms</td></tr>
+    <tr><td>16</td><td>0.196 s</td><td>±0.015 s</td><td>-3.698 ms</td><td>±14.89 ms</td></tr>
+    <tr><td>17</td><td>0.51 s</td><td>±0.006 s</td><td>-10.0 ms</td><td>±5.586 ms</td></tr>
+    <tr><td>18</td><td>-0.083 s</td><td>±0.006 s</td><td>-2.676 ms</td><td>±5.521 ms</td></tr>
+    <tr><td>19</td><td>4.969 s</td><td>±0.007 s</td><td>9.257 ms</td><td>±6.627 ms</td></tr>
+    <tr><td>20</td><td>3.186 s</td><td>±0.008 s</td><td>1.945 ms</td><td>±8.233 ms</td></tr>
+    <tr><td>21</td><td>-0.06 s</td><td>±0.002 s</td><td>-20.188 ms</td><td>±1.72 ms</td></tr>
+    <tr><td>22</td><td>-0.163 s</td><td>±0.007 s</td><td>-3.329 ms</td><td>±6.952 ms</td></tr>
+    <tr><td>23</td><td>-0.975 s</td><td>±0.007 s</td><td>-14.811 ms</td><td>±6.698 ms</td></tr>
+    <tr><td>24</td><td>-1.833 s</td><td>±0.003 s</td><td>6.83 ms</td><td>±3.206 ms</td></tr>
+    <tr><td>25</td><td>-0.553 s</td><td>±0.008 s</td><td>2.993 ms</td><td>±8.011 ms</td></tr>
+  </tbody>
+</table>
 
 ### References
 <a id="ref_s01">**[1]:**</a> "[High precision ECG Database with annotated R peaks, recorded and filmed under realistic conditions](http://researchdata.gla.ac.uk/716/)", Luis Howell and Bernd Porr. University of Glasgow, 2018. <a href="http://dx.doi.org/10.5525/gla.researchdata.716" target="_blank">http://dx.doi.org/10.5525/gla.researchdata.716</a>
