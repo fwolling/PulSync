@@ -31,13 +31,13 @@ The evaluation of the data-driven alignment method *PulSync* resulted in a promi
     <tr align="right"><td  align="left">02</td><td>-51.084 ms</td><td>±23.449 ms</td><td>-7.082 ms</td><td>±23.449 ms</td></tr>
     <tr align="right"><td  align="left">03</td><td>452.556 ms</td><td>±11.195 ms</td><td>-3.460 ms</td><td>±11.195 ms</td></tr>
     <tr align="right"><td  align="left">04</td><td>-362.652 ms</td><td>±14.265 ms</td><td>5.360 ms</td><td>±14.265 ms</td></tr>
-    <tr align="right"><td  align="left">05</td><td>**38.488 ms**</td><td>±17.075 ms</td><td>2.487 ms</td><td>±17.075 ms</td></tr>
+    <tr align="right"><td  align="left">05</td><td><b>38.488 ms</b></td><td>±17.075 ms</td><td>2.487 ms</td><td>±17.075 ms</td></tr>
     <tr align="right"><td  align="left">06</td><td>-167.911 ms</td><td>±8.902 ms</td><td>-7.906 ms</td><td>±8.902 ms</td></tr>
     <tr align="right"><td  align="left">07</td><td>-375.427 ms</td><td>±7.361 ms</td><td>-7.414 ms</td><td>±7.361 ms</td></tr>
     <tr align="right"><td  align="left">08</td><td>327.127 ms</td><td>±13.002 ms</td><td>7.117 ms</td><td>±13.002 ms</td></tr>
     <tr align="right"><td  align="left">09</td><td>-3393.174 ms</td><td>±9.879 ms</td><td>6.939 ms</td><td>±9.879 ms</td></tr>
     <tr align="right"><td  align="left">10</td><td>-3492.561 ms</td><td>±10.223 ms</td><td>-12.445 ms</td><td>±10.223 ms</td></tr>
-    <tr align="right"><td  align="left">11</td><td>-401.634 ms</td><td>±3.728 ms</td><td>**-1.621 ms**</td><td>±3.728 ms</td></tr>
+    <tr align="right"><td  align="left">11</td><td>-401.634 ms</td><td>±3.728 ms</td><td><b>-1.621 ms</b></td><td>±3.728 ms</td></tr>
     <tr align="right"><td  align="left">12</td><td>-491.203 ms</td><td>±5.550 ms</td><td>-11.187 ms</td><td>±5.550 ms</td></tr>
     <tr align="right"><td  align="left">13</td><td>1401.131 ms</td><td>±10.560 ms</td><td>-2.915 ms</td><td>±10.560 ms</td></tr>
     <tr align="right"><td  align="left">14</td><td>3215.762 ms</td><td>±7.893 ms</td><td>3.654 ms</td><td>±7.893 ms</td></tr>
@@ -45,9 +45,9 @@ The evaluation of the data-driven alignment method *PulSync* resulted in a promi
     <tr align="right"><td  align="left">16</td><td>196.308 ms</td><td>±14.890 ms</td><td>-3.698 ms</td><td>±14.890 ms</td></tr>
     <tr align="right"><td  align="left">17</td><td>510.017 ms</td><td>±5.586 ms</td><td>-10.000 ms</td><td>±5.586 ms</td></tr>
     <tr align="right"><td  align="left">18</td><td>-82.679 ms</td><td>±5.521 ms</td><td>-2.676 ms</td><td>±5.521 ms</td></tr>
-    <tr align="right"><td  align="left">19</td><td>**4969.422 ms**</td><td>±6.627 ms</td><td>9.257 ms</td><td>±6.627 ms</td></tr>
+    <tr align="right"><td  align="left">19</td><td><b>4969.422 ms</b></td><td>±6.627 ms</td><td>9.257 ms</td><td>±6.627 ms</td></tr>
     <tr align="right"><td  align="left">20</td><td>3186.051 ms</td><td>±8.233 ms</td><td>1.945 ms</td><td>±8.233 ms</td></tr>
-    <tr align="right"><td  align="left">21</td><td>-60.189 ms</td><td>±1.720 ms</td><td>**-20.188 ms**</td><td>±1.720 ms</td></tr>
+    <tr align="right"><td  align="left">21</td><td>-60.189 ms</td><td>±1.720 ms</td><td><b>-20.188 ms</b></td><td>±1.720 ms</td></tr>
     <tr align="right"><td  align="left">22</td><td>-163.334 ms</td><td>±6.952 ms</td><td>-3.329 ms</td><td>±6.952 ms</td></tr>
     <tr align="right"><td  align="left">23</td><td>-974.843 ms</td><td>±6.698 ms</td><td>-14.811 ms</td><td>±6.698 ms</td></tr>
     <tr align="right"><td  align="left">24</td><td>-1833.231 ms</td><td>±3.206 ms</td><td>6.830 ms</td><td>±3.206 ms</td></tr>
