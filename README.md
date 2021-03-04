@@ -23,7 +23,7 @@ The *PulSync* processing pipeline has been evaluated using the dataset 716 of Ho
 <table>
   <thead>
     <tr align="right"><th></th><th colspan="2">original misalignment Δ</th><th colspan="2">alignment error ε</th></tr>
-    <tr><th align="left">subject</th><th>mean</th><th>std</th><th>mean</th><th>std</th></tr>
+    <tr align="right"><th>subject</th><th>mean</th><th>std</th><th>mean</th><th>std</th></tr>
   </thead>
   <tbody>
     <tr align="right"><td  align="left">01</td><td>600.164 ms</td><td>±23.287 ms</td><td>-3.856 ms</td><td>±23.287 ms</td></tr>
