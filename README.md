@@ -13,7 +13,7 @@ In this GitHub repository, we present *PulSync*, a tool for the data-driven offl
 You may use the source code of the developed synchronization tool *PulSync* for scientific, non-commercial purposes, provided that you give credit to the owners when publishing any work based on it. We would also be very interested to hear back from you if you use our tool or alignment method in any way and are happy to answer any questions or address any remarks related to it.
 
 ### Presentation Video
-<a href="https://www.youtube.com/watch?v=TENI1LUWinA" target="_blank"><img src="https://raw.githubusercontent.com/fwolling/PPGraw/main/fig/youtube.png" alt="PerHealth'21 - PulSync: The Heart Rate Variability as a Unique Fingerprint for the Alignment of Sensor Data Across Multiple Wearable Devices" width="600" style="float: center;" /></a>
+<a href="https://www.youtube.com/watch?v=TENI1LUWinA" target="_blank"><img src="https://raw.githubusercontent.com/fwolling/PulSync/main/fig/youtube.png" alt="PerHealth'21 - PulSync: The Heart Rate Variability as a Unique Fingerprint for the Alignment of Sensor Data Across Multiple Wearable Devices" width="600" style="float: center;" /></a>
 
 ### Applied Dataset
 The *PulSync* processing pipeline has been evaluated using the dataset 716 of Howell and Porr from the University of Glasgow <a href="#ref_s01">**[1]**</a>. It contains ECG measurements from 25 subjects, recorded with two independent, pretended synchronous sensing devices in Einthoven II and resembled V2-V1 lead configurations. The "sitting" subset contains manually annotated peak labels with a precision of ±1 sample. Those were used to generate the heart rate variability (HRV) interval functions that are utilized to align the recordings.
