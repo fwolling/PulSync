@@ -23,8 +23,8 @@ The evaluation of the data-driven alignment method *PulSync* resulted in a promi
 
 <table>
   <thead>
-    <tr align="right"><th></th><th>original misalignment Δ</th><th colspan="2">alignment error ε</th></tr>
-    <tr align="right"><th>subject</th><th>mean</th><th>mean</th><th>std</th></tr>
+    <tr align="right"><th></th><th></th><th colspan="2">alignment error ε</th></tr>
+    <tr align="right"><th>subject</th><th>original misalignment Δ</th><th>mean</th><th>std</th></tr>
   </thead>
   <tbody>
     <tr align="right"><td>01</td><td>600.164 ms</td><td>-3.856 ms</td><td>±23.287 ms</td></tr>
