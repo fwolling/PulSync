@@ -17,7 +17,7 @@ The 1-minute teaser for the [PerHealth'21](https://sites.google.com/view/perheal
 
 <a href="https://www.youtube.com/watch?v=TENI1LUWinA" target="_blank"><img src="https://raw.githubusercontent.com/fwolling/PulSync/main/fig/youtube_teaser.png" alt="PerHealth'21 Teaser - PulSync: The Heart Rate Variability as a Unique Fingerprint for the Alignment of Sensor Data Across Multiple Wearable Devices" width="600" style="float: center;" /></a>
 
-### Presentation Video
+### Full Presentation Video
 The full 15-minute presentation for the [PerHealth'21](https://sites.google.com/view/perhealth2021/) workshop can be found on [YouTube](https://www.youtube.com/watch?v=QiZApuLrRic), as well.
 
 <a href="https://www.youtube.com/watch?v=QiZApuLrRic" target="_blank"><img src="https://raw.githubusercontent.com/fwolling/PulSync/main/fig/youtube_full.png" alt="PerHealth'21 Full Presentation - PulSync: The Heart Rate Variability as a Unique Fingerprint for the Alignment of Sensor Data Across Multiple Wearable Devices" width="600" style="float: center;" /></a>
