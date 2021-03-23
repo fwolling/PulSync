@@ -24,7 +24,7 @@ The full 15-minute presentation for the [PerHealth'21](https://sites.google.com/
 The *PulSync* processing pipeline has been evaluated using the dataset 716 of Howell and Porr from the University of Glasgow <a href="#ref_s01">**[1]**</a>. It contains ECG measurements from 25 subjects, recorded with two independent, pretended synchronous sensing devices in Einthoven II and resembled V2-V1 lead configurations. The "sitting" subset contains manually annotated peak labels with a precision of ±1 sample. Those were used to generate the heart rate variability (HRV) interval functions that are utilized to align the recordings.
 
 ### Results
-The evaluation of the data-driven alignment method *PulSync* resulted in a promising accuracy of -0.71 ± 3.44 samples, respectively -2.86 ± 11.43 ms at a sampling rate of 250 Hz and with the HRV interval functions resampled at 25 Hz. The initial misalignment of the original recordings was determined with a mean of 15.328 ± 428.023 samples, 0.061 ± 1.712 s respectively. The smallest initial misalignment was present in the recording of subject 5 with 0.038 s, while subject 19 showed the largest offset of even 4.969 s.
+The evaluation of the data-driven alignment method *PulSync* resulted in a promising accuracy of -0.71 ± 3.44 samples, respectively -2.86 ± 11.43 ms at a sampling rate of 250 Hz and with the HRV interval functions resampled at 25 Hz. The initial misalignment of the original recordings was determined with a mean of 15.328 ± 428.023 samples, 0.061 ± 1.712 s respectively. The smallest initial misalignment was present in the recordings of subject 5 with 0.038 s, while subject 19 showed the largest offset of even 4.969 s.
 
 <table>
   <thead>
