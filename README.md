@@ -13,7 +13,7 @@ In this GitHub repository, we present *PulSync*, a tool for the data-driven offl
 You may use the source code of the developed synchronization tool *PulSync* for scientific, non-commercial purposes, provided that you give credit to the owners when publishing any work based on it. We would also be very interested to hear back from you if you use our tool or alignment method in any way and are happy to answer any questions or address any remarks related to it.
 
 ### Teaser Video
-The teaser for the [PerHealth'21](https://sites.google.com/view/perhealth2021/) workshop can be found on [YouTube](https://www.youtube.com/watch?v=TENI1LUWinA).
+The 1-minute teaser for the [PerHealth'21](https://sites.google.com/view/perhealth2021/) workshop can be found on [YouTube](https://www.youtube.com/watch?v=TENI1LUWinA).
 <a href="https://www.youtube.com/watch?v=TENI1LUWinA" target="_blank"><img src="https://raw.githubusercontent.com/fwolling/PulSync/main/fig/youtube.png" alt="PerHealth'21 - PulSync: The Heart Rate Variability as a Unique Fingerprint for the Alignment of Sensor Data Across Multiple Wearable Devices" width="600" style="float: center;" /></a>
 
 ### Presentation Video
